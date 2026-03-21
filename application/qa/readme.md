@@ -34,7 +34,7 @@ The Structure is composed of a Base Test file containing a beforeEach and aftere
 The goal was to keep eveyrthing nice and organized and trackable. API Validation was sth I decided based on importance, such as login flows and user registration would include API validation. all tests have unique tags to run them independently through the terminal, clicking on them in the IDE is also a valid option. I also used an AAA Pattern.
 
 How To Run:
-Assuming you have eveything set up as intended simply type: npx playwright test --grep @(whatever tag the test you want to test has)
+Assuming you have eveything set up as intended simply type: "npx playwright test --grep @(whatever tag the test you want to test has)"
 This way, you can run every test individually for most accurate results and not cause errors from overloading the login requests espeically if you want test on multiple browser engines which is the default
 
 Alternatively, you can simply click run on the file in your IDE or the little green arrow next to the code.
